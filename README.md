@@ -1,6 +1,3 @@
-# Excel
-The Excel Adapter allows customers to read and write Excel Documents
-
 # Excel Adapter overview
 
 The Excel Adapter allows you to read / write excel data. 
