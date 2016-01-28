@@ -69,3 +69,6 @@ b) Edit adapters.xml and add the following line (UNIX, the file is present under
 
 c) Download Apache POI artifacts from [Apache POI](https://poi.apache.org/download.html) version 3.13. Copy commons-codec-xx.jar, commons-logging-xx.jar, log4j-xx.jar, poi.jar, poi-excelant.jar, poi-ooxml.jar, poi-ooxml-schemas.jar, xmlbeans-2.6.0.jar to <WTX INSTALL DIR> (UNIX, copy to <WTX INSTALL>/libs folder)  <br>
 
+
+
+####Note : For any defects or usage concerns, please open an issue ticket and will be addressed. 
