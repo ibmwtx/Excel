@@ -49,26 +49,34 @@ PUT RULE : PUT("EXCEL", "-F testout.xlxs -W Sheet1 -P template.xlxs -T", Input))
 ## EXCEL Adapter Installation Instructions 
 ### Design Studio
 
-a) Drop com.ibm.websphere.dtx.ui.importers.excel_<VRM>.jar, com.ibm.websphere.dtx.ui.importers.excel.nl_<VRM>.jar
-to <WTX INSTALL>\DesignStudio\wtx_eclipse\eclipse\plugins <br>
-b) Drop m4excel.jar in to <WTX INSTALL> <br>
-c) Edit adapters.xml and add the following line <br>
+a) Drop com.ibm.websphere.dtx.ui.importers.excel_"version".jar, com.ibm.websphere.dtx.ui.importers.excel.nl_"version".jar
+to "WTX INSTALL"\DesignStudio\wtx_eclipse\eclipse\plugins 
+
+
+b) Drop m4excel.jar in to "WTX INSTALL" directory
+
+c) Edit adapters.xml and add the following line 
+
 
 M4Adapter name="Microsoft Excel" alias="EXCEL" id="164" type="app" class="com/ibm/websphere/dtx/m4excel"
 
 
-d) Download Apache POI artifacts from [Apache POI](https://poi.apache.org/download.html) version 3.13. Copy commons-codec-xx.jar, commons-logging-xx.jar, log4j-xx.jar, poi.jar, poi-excelant.jar, poi-ooxml.jar, poi-ooxml-schemas.jar, xmlbeans-2.6.0.jar to <WTX INSTALL DIR> <br>
+d) Download Apache POI artifacts from [Apache POI](https://poi.apache.org/download.html) version 3.13. Copy commons-codec-xx.jar, commons-logging-xx.jar, log4j-xx.jar, poi.jar, poi-excelant.jar, poi-ooxml.jar, poi-ooxml-schemas.jar, xmlbeans-2.6.0.jar to "WTX INSTALL DIR" directory
+
+
 
 d) Invoke cleanextenderstudio.bat.
  
 ### Runtime
 
-a) Drop m4excel.jar in to <WTX INSTALL> on windows and to <WTX INSTALL>/libs on UNIX <br>
-b) Edit adapters.xml and add the following line (UNIX, the file is present under config folder) <br>
+a) Drop m4excel.jar in to "WTX INSTALL" directory on windows and to "WTX INSTALL"/libs on UNIX
+
+b) Edit adapters.xml and add the following line (UNIX, the file is present under config folder)
+
 
 M4Adapter name="Microsoft Excel" alias="EXCEL" id="164" type="app" class="com/ibm/websphere/dtx/m4excel"
 
-c) Download Apache POI artifacts from [Apache POI](https://poi.apache.org/download.html) version 3.13. Copy commons-codec-xx.jar, commons-logging-xx.jar, log4j-xx.jar, poi.jar, poi-excelant.jar, poi-ooxml.jar, poi-ooxml-schemas.jar, xmlbeans-2.6.0.jar to <WTX INSTALL DIR> (UNIX, copy to <WTX INSTALL>/libs folder)  <br>
+c) Download Apache POI artifacts from [Apache POI](https://poi.apache.org/download.html) version 3.13. Copy commons-codec-xx.jar, commons-logging-xx.jar, log4j-xx.jar, poi.jar, poi-excelant.jar, poi-ooxml.jar, poi-ooxml-schemas.jar, xmlbeans-2.6.0.jar to "WTX INSTALL DIR" (UNIX, copy to "WTX INSTALL"/libs folder)  <br>
 
 
 
